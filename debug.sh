@@ -5,4 +5,4 @@ gdb main.elf -ex "target remote localhost:3333"
 quit
 
 gdb-multiarch main.elf -ex "target extended-remote 192.168.0.3:3333"
-gdb-multiarch main.elf -x gdb-remote --batch-silent
+gdb-multiarch main.elf -x tools/gdb-remote --batch-silent

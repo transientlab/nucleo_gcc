@@ -1,7 +1,9 @@
 #include "system.h"
 
 /* SystemCoreClock = 8000000; */
+#ifndef __Vendor_SysTickConfig
 #define __Vendor_SysTickConfig
+#endif
 #define TIM1_PRESCALER 0x0001
 
 void SystemInit(void) 
