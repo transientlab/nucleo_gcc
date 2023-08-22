@@ -18,3 +18,6 @@ RUN cd /root/nucleo_gcc
 # make source
 RUN make /root/nucleo_gcc
 # RUN sh debug.sh
+
+# docker build . -t arm-dev
+# docker run -it -v /local/folder:/app arm-dev /bin/bash     
