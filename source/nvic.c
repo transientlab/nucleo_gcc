@@ -21,10 +21,10 @@ void NVICInit(void) {
   	NVIC_SetPriority(TIM1_UP_TIM16_IRQn, 0xFE);
   	NVIC_EnableIRQ(TIM1_UP_TIM16_IRQn);
 	/* Buttons handling */
-  	// NVIC_SetPriority(EXTI3_IRQn, 0xFF);
-  	// NVIC_EnableIRQ(EXTI3_IRQn);
-  	// NVIC_SetPriority(EXTI9_5_IRQn, 0xFF);
-  	// NVIC_EnableIRQ(EXTI9_5_IRQn);
+  	NVIC_SetPriority(EXTI3_IRQn, 0xFF);
+  	NVIC_EnableIRQ(EXTI3_IRQn);
+  	NVIC_SetPriority(EXTI9_5_IRQn, 0xFF);
+  	NVIC_EnableIRQ(EXTI9_5_IRQn);
 }
 
 /* ========================================================== */
