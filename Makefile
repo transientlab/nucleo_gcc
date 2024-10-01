@@ -11,7 +11,7 @@ MCU_SPEC = cortex-m4
 
 
 # Toolchain definitions (ARM bare metal defaults)
-TOOLCHAIN =
+TOOLCHAIN = /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/
 CC = $(TOOLCHAIN)arm-none-eabi-gcc
 AS = $(TOOLCHAIN)arm-none-eabi-as
 LD = $(TOOLCHAIN)arm-none-eabi-ld
